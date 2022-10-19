@@ -1,0 +1,1031 @@
+.window {
+    position: relative;
+    width: 1540px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: white;
+}
+
+.store {
+    text-align: center;
+    width: 1920px;
+    height: 150px;
+    margin-left: -190px;
+    background: url(../images/blibli2.jpg);
+}
+
+.store1 {
+    margin-top: 3px;
+    height: 30px;
+    font-size: 16px;
+    font-family: "隶书";
+    color: snow;
+}
+
+.store1 a {
+    color: snow;
+}
+
+.store1 span {
+    cursor: pointer;
+    padding: 7px;
+    margin-right: 50px;
+}
+
+.store1 span:hover {
+    background-color: plum;
+}
+
+
+/* 哔哩哔哩轮番图制作 */
+
+.blibli {
+    position: relative;
+    width: 1920px;
+    height: 365px;
+    margin-left: -190px;
+    background: url(../images/blibli3.jpg);
+}
+
+.blibli a:nth-child(1) {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 420px;
+    width: 528px;
+    height: 322px;
+}
+
+.blibli a:nth-child(2) {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 976px;
+    width: 528px;
+    height: 322px;
+}
+
+
+/* 下面的轮番图左边 */
+
+.blibli1 {
+    position: relative;
+    height: 528px;
+    background-color: rgba(250, 242, 229);
+    border-radius: 60px;
+}
+
+.blibli1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.blibli2 {
+    position: absolute;
+    left: 230px;
+    width: 528px;
+    height: 528px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.blibli3 {
+    position: absolute;
+    left: 788px;
+    width: 528px;
+    height: 528px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.blibli2 ul {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 400%;
+}
+
+.blibli2 li {
+    float: left;
+    width: 528px;
+    height: 528px;
+    background-color: skyblue;
+    transition: all 0.5s linear;
+}
+
+.arrow_r {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    left: 95%;
+    width: 20px;
+    height: 20px;
+    border: 4px skyblue solid;
+    transform: rotate(45deg);
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    z-index: 2;
+}
+
+.arrow_l {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    left: 1%;
+    width: 20px;
+    height: 20px;
+    border: 4px skyblue solid;
+    transform: rotate(45deg);
+    border-right-color: transparent;
+    border-top-color: transparent;
+    z-index: 2;
+}
+
+.blibli2 ol {
+    position: absolute;
+    top: 95%;
+    left: 40%;
+    width: 150px;
+    height: 12px;
+}
+
+.blibli2 ol li {
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+.blibli2 ol .tuoyuan {
+    width: 20px;
+    background-color: pink;
+    border-radius: 15px;
+}
+
+
+/* 右边 */
+
+.blibli3 ul {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 400%;
+}
+
+.blibli3 li {
+    float: left;
+    width: 528px;
+    height: 528px;
+    background-color: skyblue;
+    transition: all 0.5s linear;
+}
+
+.blibli3 ol {
+    position: absolute;
+    top: 95%;
+    left: 40%;
+    width: 150px;
+    height: 12px;
+}
+
+.blibli3 ol li {
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+.blibli3 ol .tuoyuan {
+    width: 20px;
+    background-color: pink;
+    border-radius: 15px;
+}
+
+.arrow_rt {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    left: 95%;
+    width: 20px;
+    height: 20px;
+    border: 4px skyblue solid;
+    transform: rotate(45deg);
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    z-index: 2;
+}
+
+.arrow_lt {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    left: 1%;
+    width: 20px;
+    height: 20px;
+    border: 4px skyblue solid;
+    transform: rotate(45deg);
+    border-right-color: transparent;
+    border-top-color: transparent;
+    z-index: 2;
+}
+
+
+/* 左边 */
+
+.blibli4 {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    width: 160px;
+    height: 320px;
+}
+
+.blibli5 {
+    position: absolute;
+    top: 90px;
+    left: 1330px;
+    width: 180px;
+    height: 320px;
+}
+
+
+/* 会员区 */
+
+.blibli6 {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    height: 600px;
+    margin-top: 20px;
+}
+
+.blibli6 img {
+    width: 100%;
+    height: 100%;
+}
+
+.blibli7 {
+    position: relative;
+    height: 150px;
+    background: url(../images/blibli2.jpg);
+    border-radius: 15px;
+}
+
+.blibli8 {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 198px;
+    height: 108px;
+}
+
+.blibli8::before {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: -20px;
+    left: -30px;
+    font-size: 30px;
+    color: white;
+}
+
+.blibli8::after {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    font-size: 40px;
+    color: white;
+    transform: rotate(-45deg);
+}
+
+.blibli8 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.blibli8 img:nth-child(1) {
+    transform: rotate(-12deg);
+}
+
+.blibli9 {
+    position: absolute;
+    top: 20px;
+    left: 1050px;
+    width: 100px;
+    height: 108px;
+    background: url(../images/blibli/blibli11.jpg);
+    background-size: cover;
+}
+
+.blibli9::after {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: -20px;
+    left: 120px;
+    color: white;
+    font-size: 30px;
+    transform: rotate(45deg);
+}
+
+.blibli10 {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 600px;
+    height: 150px;
+}
+
+.blibli10::after {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: -2px;
+    left: 700px;
+    color: white;
+    font-size: 100px;
+}
+
+.blibli10::before {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: 60px;
+    left: 620px;
+    color: white;
+    font-size: 50px;
+}
+
+.blibli10 span:nth-child(1) {
+    position: absolute;
+    top: 30px;
+    left: 40%;
+    font-size: 40px;
+    color: white;
+    font-family: "隶书";
+    font-weight: bolder;
+}
+
+.blibli10 span:nth-child(2) {
+    position: absolute;
+    top: 80px;
+    left: 40%;
+    font-size: 25px;
+    color: white;
+    font-family: "隶书";
+    font-weight: bolder;
+}
+
+
+/* 内容部分 */
+
+.content {
+    height: 450px;
+    background: url(../images/blibli/blibli.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content div {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.content_1 {
+    cursor: default;
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    background: url(../images/blibli/blibli12.jpg);
+    background-size: cover;
+}
+
+.content_2 {
+    position: absolute;
+    display: inline-block;
+    top: 80px;
+    left: 60px;
+    font-size: 80px;
+    color: hotpink;
+}
+
+.content_3 {
+    position: absolute;
+    display: inline-block;
+    top: 220px;
+    left: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(247, 21, 134);
+}
+
+.content_4 {
+    cursor: pointer;
+    position: absolute;
+    top: 300px;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+}
+
+.content_5 {
+    cursor: default;
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    background: url(../images/blibli/blibli13.jpg);
+    background-size: cover;
+}
+
+.content_6 {
+    cursor: default;
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    background: url(../images/blibli/blibli14.jpg);
+    background-size: cover;
+}
+
+
+/* 国内独家专区 */
+
+.chinese {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    height: 800px;
+    margin-top: 20px;
+}
+
+.chinese img {
+    width: 100%;
+    height: 100%;
+}
+
+.chinese_1 {
+    position: relative;
+    height: 150px;
+    background: url(../images/blibli2.jpg);
+    border-radius: 15px;
+}
+
+.chinese_2 {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 198px;
+    height: 108px;
+}
+
+.chinese_2::before {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: -20px;
+    left: -30px;
+    font-size: 30px;
+    color: white;
+}
+
+.chinese_2::after {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    font-size: 40px;
+    color: white;
+    transform: rotate(-45deg);
+}
+
+.chinese_2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.chinese_2 img:nth-child(1) {
+    transform: rotate(-12deg);
+}
+
+.chinese_3 {
+    position: absolute;
+    top: 20px;
+    left: 1050px;
+    width: 100px;
+    height: 108px;
+    background: url(../images/blibli1/blibli_3.jpg);
+    background-size: cover;
+}
+
+.chinese_3::after {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: -20px;
+    left: 120px;
+    color: white;
+    font-size: 30px;
+    transform: rotate(45deg);
+}
+
+.chinese_4 {
+    height: 640px;
+    border-radius: 30px;
+}
+
+.chinese_4 ul {
+    width: 1200px;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.chinese_4 li {
+    cursor: pointer;
+    width: 220px;
+    height: 300px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.chinese_4 li div:nth-child(1) {
+    width: 220px;
+    height: 220px;
+}
+
+.chinese_4 li div:nth-child(2) {
+    position: relative;
+    width: 220px;
+    height: 30px;
+    background-color: #666;
+    border-radius: 8px;
+}
+
+.chinese_4 li div:nth-child(3) {
+    width: 220px;
+    height: 50px;
+}
+
+.chinese_4 li div:nth-child(2) span {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.chinese_4 li div:nth-child(2)::after {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    left: 180px;
+    width: 40px;
+    font-size: 20px;
+    content: "";
+    color: white;
+    font-family: 'icomoon';
+    background-color: pink;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.chinese_4 li div:nth-child(3) {
+    font-size: 13px;
+    color: rgb(7, 6, 6);
+    font-weight: bold;
+}
+
+.chinese_4 li:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 10px 0px;
+    transition: all 1s ease 0s;
+}
+
+
+/* 国独 */
+
+.guojia {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.guojia img {
+    width: 100%;
+    height: 100%;
+}
+
+.guojia_1 {
+    position: absolute;
+    top: 20px;
+    left: 1050px;
+    width: 100px;
+    height: 108px;
+    background: url(../images/blibli1/blibli_16.jpg);
+    background-size: cover;
+}
+
+.guojia_1::after {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: -20px;
+    left: 120px;
+    color: white;
+    font-size: 30px;
+    transform: rotate(45deg);
+}
+
+.guojia2 {
+    position: relative;
+    height: 480px;
+}
+
+.guojia2 ul {
+    width: 1200px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.guojia2 ul li {
+    cursor: pointer;
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.guojia2 ul li:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 10px 0px;
+    transition: all 1s ease 0s;
+}
+
+.left {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    border: skyblue solid 4px;
+    transform: rotate(45deg);
+    border-top-color: transparent;
+    border-right-color: transparent;
+}
+
+.right {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 97%;
+    width: 20px;
+    height: 20px;
+    border: skyblue solid 4px;
+    transform: rotate(45deg);
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+
+/* top */
+
+.top {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.top img {
+    width: 100%;
+    height: 100%;
+}
+
+.top_1 {
+    position: absolute;
+    top: 20px;
+    left: 1050px;
+    width: 100px;
+    height: 108px;
+    background: url(../images/blibli3/blibli3.jpg);
+    background-size: cover;
+}
+
+.top_1::after {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: -20px;
+    left: 120px;
+    color: white;
+    font-size: 30px;
+    transform: rotate(45deg);
+}
+
+.top_2 {
+    position: relative;
+    height: 480px;
+}
+
+.top_2 ul {
+    width: 1200px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.top_2 ul li {
+    cursor: pointer;
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.top_2 ul li:hover {
+    box-shadow: rgba(255, 255, 255, 1) 0px 10px 10px 0px;
+    transition: all 1s ease 0s;
+}
+
+
+/* 购买须知 */
+
+.goumai {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.goumai img {
+    width: 100%;
+    height: 100%;
+}
+
+.goumai_1 {
+    position: absolute;
+    top: 20px;
+    left: 1050px;
+    width: 100px;
+    height: 108px;
+    background: url(../images/blibli3/blibli16.jpg);
+    background-size: cover;
+}
+
+.goumai_1::after {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: -20px;
+    left: 120px;
+    color: white;
+    font-size: 30px;
+    transform: rotate(45deg);
+}
+
+.goumai_2 {
+    position: relative;
+    height: 300px;
+    border-radius: 25px;
+    border: 2px solid pink;
+}
+
+.goumai_3 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    border-radius: 15px;
+    font-size: 40px;
+    line-height: 100px;
+    color: white;
+    font-weight: bolder;
+}
+
+.goumai_4 {
+    position: absolute;
+    top: 50px;
+    left: 180px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.goumai_5 {
+    position: absolute;
+    top: 80px;
+    left: 180px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    color: rgb(87, 87, 87);
+    border-radius: 5px;
+}
+
+.goumai_5 span {
+    font-size: 10px;
+    background-color: pink;
+    font-weight: bold;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.goumai_6 {
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    color: rgb(87, 87, 87);
+    border-radius: 5px;
+}
+
+.goumai_6 span {
+    font-size: 10px;
+    background-color: pink;
+    font-weight: bold;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.goumai_7 {
+    position: absolute;
+    top: 50px;
+    left: 900px;
+    width: 216px;
+    height: 240px;
+    background: url(../images/blibli3/blibli17.jpg);
+    background-size: cover;
+}
+
+.goumai_8 {
+    position: absolute;
+    top: 0;
+    left: 500px;
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #333;
+    font-family: "隶书";
+}
+
+.goumai_9 {
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #333;
+    font-family: "隶书";
+}
+
+.goumai_10 {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #333;
+    font-family: "隶书";
+}
+
+
+/* 侧边栏 */
+
+.frame {
+    display: none;
+    width: 40px;
+    position: fixed;
+    top: 300px;
+    left: 130px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.frame1 {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 50px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+    border-bottom: 2px solid pink;
+}
+
+.frame2 {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 50px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+    border-bottom: 2px solid pink;
+}
+
+.frame3 {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 50px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+    border-bottom: 2px solid pink;
+}
+
+.frame4 {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 50px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+    border-bottom: 2px solid pink;
+}
+
+.frame5 {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 50px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+    border-bottom: 2px solid pink;
+}
+
+.frame6 {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 50px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+    border-bottom: 2px solid pink;
+}
+
+.skyblue {
+    color: skyblue;
+}

@@ -1,0 +1,360 @@
+body {
+    background-color: white;
+}
+
+.hd {
+    position: relative;
+    height: 80px;
+}
+
+.touxiang {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 60px;
+    height: 60px;
+    background: url(../images/qq4.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.mingzi {
+    cursor: default;
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hd div:nth-child(3) {
+    cursor: default;
+    position: absolute;
+    top: 40px;
+    left: 90px;
+}
+
+
+/* 内容 */
+
+.taocan {
+    width: 1200px;
+    height: 200px;
+}
+
+.taocan ul {
+    width: 1200px;
+    height: 200px;
+}
+
+.taocan ul li {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 180px;
+    height: 180px;
+    background-color: #faf8f8;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.class1 {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.class2 {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    font-size: 40px;
+    color: hotpink;
+}
+
+.class5 {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    font-size: 40px;
+    color: hotpink;
+}
+
+.class3 {
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.class4 {
+    position: absolute;
+    top: -10px;
+    left: 120px;
+    font-size: 16px;
+    background-color: pink;
+    color: white;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+
+/* 代金券 */
+
+.daijingjuan {
+    position: relative;
+    height: 100px;
+    /* background-color: skyblue; */
+}
+
+.dai {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.jin {
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 1160px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.juan {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #b0b0b0;
+}
+
+.daijingjuan input {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.xieyi {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    font-weight: bold;
+}
+
+
+/* 特权 */
+
+.tequan {
+    margin-top: 40px;
+    position: relative;
+    width: 1200px;
+    height: 340px;
+    background-color: #fdfafa;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.tequan_h {
+    position: relative;
+    width: 1200px;
+    height: 60px;
+}
+
+.tequan_h span:nth-child(1) {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    color: #666;
+    font-size: 30px;
+    font-family: "隶书";
+    font-weight: bold;
+}
+
+.tequan_h span:nth-child(1)::before {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: -10px;
+    left: -50px;
+    transform: rotate(-45deg);
+    font-weight: 500;
+    font-size: 40px;
+    color: skyblue;
+}
+
+.tequan_h span:nth-child(2) {
+    position: absolute;
+    top: 15px;
+    left: 850px;
+    color: #b0b0b0;
+    font-size: 20px;
+    font-family: "隶书";
+    font-weight: bold;
+}
+
+.tequan_h div {
+    display: inline-block;
+    color: hotpink;
+    font-size: 25px;
+}
+
+.tequan_h span:nth-child(2)::after {
+    content: "";
+    font-family: 'icomoon';
+    color: skyblue;
+}
+
+.tequan_b {
+    width: 1200px;
+    height: 300px;
+}
+
+.tequan_b ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 300px;
+    /* background-color: pink; */
+}
+
+.tequan_b ul li {
+    cursor: default;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background-color: skyblue;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 30px;
+}
+
+.tequan_b ul li div {
+    top: 60px;
+    left: 15px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.tequan_b ul li p {
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.div1::after {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: -50px;
+    left: 25px;
+    font-size: 40px;
+}
+
+.div2::after {
+    content: "a";
+    font-family: 'icomoon';
+    position: absolute;
+    top: -50px;
+    left: 25px;
+    font-size: 40px;
+}
+
+.div3::after {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: -50px;
+    left: 25px;
+    font-size: 40px;
+}
+
+.div4::after {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: -50px;
+    left: 25px;
+    font-size: 40px;
+}
+
+.div5::after {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: -50px;
+    left: 25px;
+    font-size: 40px;
+}
+
+.div6::after {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: -50px;
+    left: 25px;
+    font-size: 40px;
+}
+
+.div7::after {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: -50px;
+    left: 25px;
+    font-size: 40px;
+}
+
+.div8::after {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: -50px;
+    left: 25px;
+    font-size: 40px;
+}
+
+.div9::after {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: -50px;
+    left: 25px;
+    font-size: 40px;
+}
+
+.div10::after {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: -50px;
+    left: 25px;
+    font-size: 40px;
+}

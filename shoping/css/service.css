@@ -1,0 +1,404 @@
+.service {
+    position: relative;
+    width: 1520px;
+    height: 760px;
+    background: url(../images/7\ \(7\).jpg);
+    background-size: cover;
+}
+
+.kefu {
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    width: 1200px;
+    height: 700px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.hd {
+    height: 80px;
+    padding-left: 560px;
+    background-color: white;
+}
+
+.bd {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 620px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.title {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    color: skyblue;
+    font-weight: bold;
+}
+
+.shijian {
+    position: absolute;
+    top: 35px;
+    left: 46%;
+    color: skyblue;
+    font-weight: bold;
+}
+
+.kefu div:nth-child(3) {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    width: 400px;
+    height: 40px;
+    background-color: skyblue;
+    color: white;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+
+.kefu div:nth-child(4) {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    width: 230px;
+    height: 40px;
+    background-color: skyblue;
+    color: white;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
+    padding-left: 5px;
+}
+
+.yangmao {
+    margin-left: 20px;
+}
+
+.yangmao::before {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    content: "";
+    font-family: 'icomoon';
+    color: white;
+    font-size: 18px;
+}
+
+.yangmao::after {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    content: "";
+    font-family: 'icomoon';
+    color: white;
+    font-size: 18px;
+}
+
+.four {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    background-color: pink;
+    border-radius: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.caini {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: skyblue;
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.tit {
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 10px;
+    font-family: "隶书";
+    border-bottom: pink 4px solid;
+}
+
+.titl {
+    position: absolute;
+    top: 50px;
+    height: 250px;
+    width: 300px;
+}
+
+.titl li {
+    cursor: pointer;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.titl li:hover {
+    background-color: pink;
+}
+
+.titl li::after {
+    position: absolute;
+    right: 0;
+    content: "";
+    font-size: 16px;
+    font-family: 'icomoon';
+}
+
+.shang {
+    position: absolute;
+    bottom: 30px;
+    height: 30px;
+    width: 1200px;
+}
+
+.duihua {
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    width: 1200px;
+}
+
+.shang span {
+    cursor: pointer;
+    background-color: skyblue;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+.shang span::before {
+    content: "";
+    font-family: 'icomoon';
+    vertical-align: middle;
+    padding-right: 4px;
+}
+
+.shang::before {
+    cursor: pointer;
+    content: "";
+    font-family: 'icomoon';
+    color: skyblue;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.shang::after {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    content: "";
+    font-family: 'icomoon';
+    color: skyblue;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.duihua span {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.duihua span:nth-child(1):after {
+    position: absolute;
+    font-size: 25px;
+    color: skyblue;
+    content: "";
+    font-family: 'icomoon';
+}
+
+.duihua span:nth-child(1) div {
+    display: none;
+    position: absolute;
+    text-align: center;
+    top: -20px;
+    left: -10px;
+    width: 60px;
+    height: 20px;
+    font-size: 12px;
+    background-color: #666;
+    color: white;
+    border-radius: 5px;
+}
+
+.duihua span:nth-child(2) div {
+    display: none;
+    position: absolute;
+    text-align: center;
+    top: -20px;
+    left: -10px;
+    width: 60px;
+    height: 20px;
+    font-size: 12px;
+    background-color: #666;
+    color: white;
+    border-radius: 5px;
+}
+
+.duihua span:nth-child(3) div {
+    display: none;
+    position: absolute;
+    text-align: center;
+    top: -20px;
+    left: -10px;
+    width: 60px;
+    height: 20px;
+    font-size: 12px;
+    background-color: #666;
+    color: white;
+    border-radius: 5px;
+}
+
+.duihua span:nth-child(4) div {
+    display: none;
+    position: absolute;
+    text-align: center;
+    top: -20px;
+    left: -10px;
+    width: 60px;
+    height: 20px;
+    font-size: 12px;
+    background-color: #666;
+    color: white;
+    border-radius: 5px;
+}
+
+.duihua span:nth-child(1):hover .i2 {
+    display: block;
+}
+
+.i1 {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 7px #666 solid;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.i3 {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 7px #666 solid;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.i5 {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 7px #666 solid;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.i7 {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 7px #666 solid;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.duihua span:nth-child(2):hover .i4 {
+    display: block;
+}
+
+.duihua span:nth-child(3):hover .i6 {
+    display: block;
+}
+
+.duihua span:nth-child(4):hover .i8 {
+    display: block;
+}
+
+.duihua span:nth-child(2):after {
+    position: absolute;
+    font-size: 25px;
+    color: skyblue;
+    content: "";
+    font-family: 'icomoon';
+}
+
+.duihua span:nth-child(3):after {
+    position: absolute;
+    font-size: 25px;
+    color: skyblue;
+    content: "";
+    font-family: 'icomoon';
+}
+
+.duihua span:nth-child(4):after {
+    position: absolute;
+    font-size: 25px;
+    color: skyblue;
+    content: "";
+    font-family: 'icomoon';
+}
+
+.duihua input {
+    position: absolute;
+    width: 800px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.duihua button {
+    position: absolute;
+    left: 1000px;
+    height: 30px;
+    width: 60px;
+    font-size: 16px;
+    background-color: skyblue;
+    color: white;
+    border-radius: 15px;
+}

@@ -1,0 +1,1432 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?hcx9vv');
+    src: url('../fonts/icomoon.eot?hcx9vv#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?hcx9vv') format('truetype'), url('../fonts/icomoon.woff?hcx9vv') format('woff'), url('../fonts/icomoon.svg?hcx9vv#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.slider_bar {
+    border-radius: 15px;
+    text-align: center;
+    position: absolute;
+    top: 677px;
+    left: 1400px;
+    width: 60px;
+    color: white;
+    background-color: skyblue;
+    overflow: hidden;
+    z-index: 21;
+}
+
+.slider_bar div {
+    cursor: pointer;
+    height: 50px;
+    line-height: 25px;
+    font-size: 16px;
+    font-family: "隶书";
+}
+
+.slider_bar div a {
+    margin-left: 10px;
+    display: block;
+    width: 40px;
+    height: 50px;
+    border-bottom: pink solid 1px;
+}
+
+.slider_bar div:hover {
+    background-color: pink;
+    font-weight: 800;
+}
+
+.slider_bar div:hover a {
+    color: white;
+}
+
+.slider_bar div:nth-child(7) {
+    line-height: 50px;
+    font-size: 16px;
+    font-family: "隶书";
+}
+
+.main {
+    position: relative;
+    width: 1000px;
+    height: 464px;
+    margin-left: 200px;
+    margin-bottom: 40px;
+}
+
+.focus {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 464px;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.focus ul li img {
+    width: 800px;
+    height: 462px;
+}
+
+.focus a:hover {
+    background-color: #666;
+    color: snow;
+}
+
+.circle {
+    cursor: default;
+    position: absolute;
+    line-height: 23px;
+    text-align: center;
+    top: 420px;
+    left: 40px;
+    border-radius: 15px;
+}
+
+.circle li {
+    cursor: pointer;
+    display: inline-block;
+    margin: 1px;
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    background-color: rgb(197, 194, 194);
+    border-radius: 50%;
+}
+
+.circle .yanse {
+    background-color: rgb(255, 133, 153);
+}
+
+.arrow_l {
+    display: none;
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    line-height: 28px;
+    top: 200px;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(194, 192, 192);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    z-index: 1;
+}
+
+.arrow_r {
+    display: none;
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    line-height: 28px;
+    padding-left: 8px;
+    top: 200px;
+    left: 775px;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(194, 192, 192);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    z-index: 1;
+}
+
+.account_number {
+    float: right;
+    width: 200px;
+    height: 464px;
+    background-color: rgb(243, 246, 250);
+    border: 1px solid rgb(141, 136, 136);
+}
+
+.account_number .user {
+    position: relative;
+    height: 100px;
+    border-bottom: 1px solid rgb(141, 136, 136);
+}
+
+.head_portrait {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.account_number .user .head_portrait a {
+    display: block;
+    width: 45px;
+    height: 45px;
+}
+
+.account_number .user .head_portrait a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.account_number .news {
+    height: 120px;
+    border-bottom: 1px solid rgb(141, 136, 136);
+}
+
+.account_number .life {
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    height: 235px;
+    background-color: rgb(243, 246, 250);
+}
+
+.user_show {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+
+.user_top {
+    font-family: "隶书";
+    font-size: 14px;
+}
+
+.user_profit {
+    position: absolute;
+    top: 60px;
+    left: 15px;
+    height: 30px;
+    text-align: center;
+}
+
+.user_profit_login {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 13px;
+    background-color: pink;
+    color: white;
+    font-family: "隶书";
+}
+
+.user_profit_login:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+.user_profit_register {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 13px;
+    background-color: pink;
+    color: white;
+    font-family: "隶书";
+}
+
+.user_profit_register:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+.news_hd {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px dotted #a35f9d;
+}
+
+.news_hd h3 {
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+}
+
+.news_hd a {
+    position: absolute;
+    right: 20px;
+}
+
+.news_hd a::after {
+    content: "";
+    font-family: 'icomoon';
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.news_bd ul li {
+    padding: 5px 10px 10px;
+    width: 160px;
+    height: 20px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #666;
+}
+
+.news_tag {
+    display: inline-block;
+    width: 35px;
+    height: 22px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: 0;
+    margin-right: 5px;
+    background-color: rgb(233, 142, 157);
+    font-size: 12px;
+}
+
+.account_number .life ul li {
+    display: inline-block;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin-right: 40px;
+    margin-bottom: 55px;
+    background: url(../images/tubiao.png) no-repeat;
+}
+
+.account_number .life ul li:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.life_1 {
+    position: absolute;
+    top: 45px;
+    left: 20px;
+}
+
+.life_2 {
+    position: absolute;
+    top: 45px;
+    left: 88px;
+}
+
+.life_3 {
+    position: absolute;
+    top: 45px;
+    left: 156px;
+}
+
+.life_4 {
+    position: absolute;
+    top: 128px;
+    left: 20px;
+}
+
+.life_5 {
+    position: absolute;
+    top: 128px;
+    left: 88px;
+}
+
+.life_6 {
+    position: absolute;
+    top: 128px;
+    left: 156px;
+}
+
+.life_7 {
+    position: absolute;
+    top: 211px;
+    left: 20px;
+}
+
+.life_8 {
+    position: absolute;
+    top: 211px;
+    left: 88px;
+}
+
+.life_9 {
+    position: absolute;
+    top: 211px;
+    left: 156px;
+}
+
+
+/* 秒杀 */
+
+.seckill_hd {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 320px;
+    text-align: center;
+    color: #f1f1ff;
+    background: url(../images/miaosha.png);
+}
+
+.seckill_tle {
+    position: absolute;
+    top: 180px;
+    left: 35px;
+    font-size: 18px;
+}
+
+.seckill_hd h1 {
+    line-height: 120px;
+    font-size: 36px;
+}
+
+.seckill_h {
+    position: absolute;
+    top: 225px;
+    left: 75px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.seckill_m {
+    position: absolute;
+    top: 225px;
+    left: 125px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.hour {
+    position: absolute;
+    top: 220px;
+    left: 35px;
+    display: inline-block;
+    width: 35px;
+    height: 40px;
+    color: white;
+    font-size: 27px;
+    font-weight: 900;
+    background-color: skyblue;
+}
+
+.minute {
+    position: absolute;
+    top: 220px;
+    left: 85px;
+    display: inline-block;
+    width: 35px;
+    height: 40px;
+    color: white;
+    font-size: 27px;
+    font-weight: 900;
+    background-color: skyblue;
+}
+
+.second {
+    position: absolute;
+    top: 220px;
+    left: 135px;
+    display: inline-block;
+    width: 35px;
+    height: 40px;
+    color: white;
+    font-size: 27px;
+    font-weight: 900;
+    background-color: skyblue;
+}
+
+.seckill_bd {
+    position: relative;
+    width: 1000px;
+    height: 320px;
+    overflow: hidden;
+}
+
+.seckill_bd ul {
+    position: relative;
+    width: 300%;
+}
+
+.seckill_bd ul li {
+    position: relative;
+    float: left;
+    border-right: 1px solid #e4e4e4;
+    width: 250px;
+    height: 320px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.seckill {
+    margin-top: -20px;
+    height: 320px;
+}
+
+.seckill_bd ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.shop_miaosha {
+    height: 260px;
+}
+
+.shop_introduce {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: rgb(53, 50, 50);
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.shop_price {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: pink;
+    font-size: 16px;
+}
+
+.shop_riase {
+    position: absolute;
+    top: 300px;
+    left: 65px;
+    color: rgb(190, 187, 187);
+    text-decoration: line-through;
+}
+
+.shop_salves {
+    display: inline-block;
+    margin-top: -10px;
+    margin-left: 100px;
+}
+
+.mengcheng {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(252, 251, 251, 0.2);
+    display: none;
+}
+
+.mengcheng span {
+    position: absolute;
+    padding: 2px;
+    top: 220px;
+    left: 80px;
+    background-color: skyblue;
+    font-family: "隶书";
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.seckill_bd ul li:hover .mengcheng {
+    display: block;
+}
+
+.left {
+    display: none;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    top: 45%;
+    left: 0%;
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: pink;
+    color: skyblue;
+    z-index: 50;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.right {
+    display: none;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    top: 45%;
+    left: 98%;
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: skyblue;
+    background-color: pink;
+    z-index: 50;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+
+/* 全球热爱季 */
+
+.special {
+    margin-top: 20px;
+    height: 400px;
+    background-color: white;
+}
+
+.special h1 {
+    font-family: "隶书";
+    text-align: center;
+    font-size: 48px;
+    color: rgb(223, 136, 136);
+}
+
+.special ul li {
+    position: relative;
+    display: inline-block;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 260px;
+    height: 326px;
+    background-color: saddlebrown;
+}
+
+.special ul li:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 19px 39px 0px;
+    transition: all 0.5s ease 0s;
+}
+
+.special ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.special_title {
+    position: absolute;
+    left: 90px;
+    top: 225px;
+    width: 80px;
+    background-color: pink;
+    color: white;
+    border-radius: 13px;
+    font-family: "隶书";
+    font-size: 20px;
+}
+
+.margin {
+    margin-right: 49px;
+}
+
+.special_salves {
+    position: absolute;
+    top: 280px;
+    left: 70px;
+    font-size: 25px;
+    color: skyblue;
+}
+
+
+/* 频道模块制作 */
+
+.pindao {
+    height: 615px;
+    background-color: #e4e4e4;
+    margin-top: 20px;
+}
+
+.pindao img {
+    width: 100%;
+    height: 100%;
+}
+
+.pindao_hd {
+    text-align: center;
+    background-color: #e4e4e4;
+}
+
+.pindao_hd h3 {
+    font-size: 30px;
+    font-family: "隶书";
+    padding-bottom: 10px;
+}
+
+.pindao_hd h3::after {
+    content: "";
+    font-family: 'icomoon';
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.pindao_hd h3::before {
+    content: "";
+    font-family: 'icomoon';
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.pindao_bd {
+    position: relative;
+}
+
+.pindao1 {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 290px;
+    height: 370px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.pindao2 {
+    position: absolute;
+    top: 0;
+    left: 303px;
+    width: 290px;
+    height: 370px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.pindao3 {
+    position: absolute;
+    border-radius: 15px;
+    top: 0;
+    left: 606px;
+    width: 290px;
+    height: 180px;
+    background-color: rgb(223, 201, 217);
+}
+
+.pindao4 {
+    position: absolute;
+    border-radius: 15px;
+    top: 0;
+    left: 909px;
+    width: 290px;
+    height: 180px;
+    background-color: rgb(223, 201, 217);
+}
+
+.pindao5 {
+    position: absolute;
+    border-radius: 15px;
+    top: 190px;
+    left: 606px;
+    width: 290px;
+    height: 180px;
+    background-color: rgb(223, 201, 217);
+}
+
+.pindao6 {
+    position: absolute;
+    border-radius: 15px;
+    top: 190px;
+    left: 909px;
+    width: 290px;
+    height: 180px;
+    background-color: rgb(223, 201, 217);
+}
+
+.pindao_title {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.pindao_introduce {
+    position: absolute;
+    top: 30px;
+    left: 90px;
+}
+
+.pindao9 {
+    position: absolute;
+    border-radius: 15px;
+    top: 380px;
+    left: 606px;
+    width: 290px;
+    height: 180px;
+    background-color: rgb(223, 201, 217);
+}
+
+.pindao8 {
+    position: absolute;
+    border-radius: 15px;
+    top: 380px;
+    left: 303px;
+    width: 290px;
+    height: 180px;
+    background-color: rgb(223, 201, 217);
+}
+
+.pindao7 {
+    position: absolute;
+    border-radius: 15px;
+    top: 380px;
+    left: 0px;
+    width: 290px;
+    height: 180px;
+    background-color: rgb(223, 201, 217);
+}
+
+.pindao10 {
+    position: absolute;
+    border-radius: 15px;
+    top: 380px;
+    left: 909px;
+    width: 290px;
+    height: 180px;
+    background-color: rgb(223, 201, 217);
+}
+
+.pindao_picturn1 {
+    position: absolute;
+    top: 70px;
+    left: 25px;
+    width: 100px;
+    height: 100px;
+}
+
+.pindao_picturn2 {
+    position: absolute;
+    top: 70px;
+    left: 165px;
+    width: 100px;
+    height: 100px;
+}
+
+#pindao:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 39px 0px;
+    transition: all 0.5s ease 0s;
+}
+
+
+/* 为你推荐制作 */
+
+.tuijian {
+    background-color: #e4e4e4;
+    margin-top: 20px;
+}
+
+.tuijian_hd {
+    text-align: center;
+    background-color: #e4e4e4;
+}
+
+.tuijian_hd h3 {
+    font-size: 30px;
+    font-family: "隶书";
+    padding-bottom: 10px;
+}
+
+.tuijian_hd h3::after {
+    content: "";
+    font-family: 'icomoon';
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.tuijian_hd h3::before {
+    content: "";
+    font-family: 'icomoon';
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.tab_list {
+    position: relative;
+    background-color: white;
+    height: 50px;
+}
+
+.tab_list ul li {
+    cursor: pointer;
+    float: left;
+    width: 239px;
+    height: 50px;
+    font-family: "隶书";
+    font-size: 30px;
+}
+
+.span1 {
+    position: absolute;
+    top: 10px;
+    left: 240px;
+    font-size: 16px;
+}
+
+.span2 {
+    position: absolute;
+    top: 10px;
+    left: 480px;
+    font-size: 16px;
+}
+
+.span3 {
+    position: absolute;
+    top: 10px;
+    left: 720px;
+    font-size: 16px;
+}
+
+.span4 {
+    position: absolute;
+    top: 10px;
+    left: 960px;
+    font-size: 16px;
+}
+
+.tap_content {
+    margin-top: 10px;
+    height: 925px;
+    background-color: rgb(224, 222, 222);
+}
+
+.tap_content img {
+    width: 100%;
+    height: 100%;
+}
+
+.tap_picture {
+    width: 230px;
+    height: 230px;
+}
+
+.item {
+    display: none;
+}
+
+.item li {
+    position: relative;
+    margin-top: 12.5px;
+    margin-right: 12.5px;
+    border-radius: 14px;
+    float: left;
+    width: 230px;
+    height: 300px;
+    background-color: snow;
+    overflow: hidden;
+}
+
+.item li:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 19px 39px 0px;
+    transition: all 1s ease 0s;
+}
+
+.heihe {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(252, 246, 246, 0.2);
+    display: none;
+}
+
+.heihe span {
+    position: absolute;
+    top: 220px;
+    left: 70px;
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: "隶书";
+    color: skyblue;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.heihe span::before {
+    content: "";
+    font-family: 'icomoon';
+}
+
+li:hover .heihe {
+    display: block;
+}
+
+.item li:nth-child(5n) {
+    margin-right: 0px;
+}
+
+.item li:nth-child(-n+5) {
+    margin-top: 0px;
+}
+
+.tap_tit {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: rgb(53, 50, 50);
+    overflow: hidden;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.tap_ind {
+    position: absolute;
+    top: 260px;
+    left: 10px;
+    font-size: 16px;
+    color: skyblue;
+    font-weight: bold;
+}
+/* 狗狗 */
+#guanggao {
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    width: 120px;
+    height: 90px;
+}
+
+#guanggao img {
+    width: 100%;
+    height: 100%;
+}
+
+#guanggao i {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: rgb(246, 247, 248);
+}
+
+.tap_list li {
+    cursor: pointer;
+}
+
+.current {
+    color: skyblue;
+}
+
+.tab_list li:hover {
+    color: red;
+}
+
+.box {
+    width: 1000px;
+    position: relative;
+    left: 50px;
+    background-color: #fff;
+}
+
+.box ul {
+    height: 38px;
+    line-height: 38px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid red;
+    overflow: hidden;
+}
+
+.box ul li {
+    float: left;
+    padding: 0 15px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+}
+
+.box ul li:hover {
+    color: #e4393c;
+}
+
+.content {
+    /* position: absolute;
+    left: 0;
+    top: 40; */
+    display: none;
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+}
+
+.active {
+    background-color: #e4393c;
+    color: #fff !important;
+}
+
+.gougou {
+    position: relative;
+    height: 76px;
+    background-color: #e2e2e2;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(1000px);
+    }
+}
+
+.gouzi {
+    width: 100px;
+    height: 76px;
+    animation: move 5s linear forwards;
+}
+
+.gouzi:hover {
+    animation-play-state: paused;
+}
+
+.gougou img {
+    width: 100%;
+    height: 100%;
+}
+
+.kuaidi {
+    font-size: 40px;
+    position: absolute;
+    left: 600px;
+    font-weight: 900;
+}
+
+#pindao:hover img {
+    transition: all 2s;
+    transform: scale(1.05);
+}
+
+.gougou div:nth-child(3) {
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    top: 25px;
+    right: 200px;
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 15px;
+    background-color: skyblue;
+}
+
+
+/* 魔力赏 */
+
+.molishang {
+    margin-top: 20px;
+    height: 450px;
+}
+
+.molishang img {
+    width: 100%;
+    height: 100%;
+}
+
+.molishang_hd {
+    text-align: center;
+    height: 50px;
+    font-size: 30px;
+    font-family: "隶书";
+}
+
+.molishang_hd::before {
+    content: "";
+    font-family: 'icomoon';
+    padding: 10px;
+    font-size: 25px;
+}
+
+.molishang_hd::after {
+    content: "";
+    font-family: 'icomoon';
+    padding: 10px;
+    font-size: 25px;
+}
+
+.molishang_bd {
+    height: 220px;
+    padding-left: 25px;
+}
+
+.molishang_bd li {
+    cursor: pointer;
+    width: 220px;
+    height: 220px;
+    float: left;
+    margin-right: 12.5px;
+    perspective: 2000px;
+}
+
+.molishang_bd li:nth-child(1) {
+    background: url(../images/fd.jpg);
+}
+
+.molishang_box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s;
+}
+
+.front,
+.bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.front {
+    transform: translateZ(110px);
+    z-index: 1;
+}
+
+.bottom {
+    background-color: purple;
+    transform: translateY(110px) rotateX(-90deg);
+}
+
+.molishang_box:hover {
+    transform: rotateX(90deg);
+}
+
+.benqi {
+    position: relative;
+    text-align: center;
+    height: 50px;
+    font-size: 30px;
+    font-family: '隶书';
+    background-color: skyblue;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 6px;
+}
+
+.benqi::after {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    content: "";
+    font-family: 'icomoon';
+    transform: rotate(45deg) scale(2);
+}
+
+.choujiang {
+    position: relative;
+    margin-top: 40px;
+    height: 50px;
+}
+
+.danchou {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    font-family: "隶书";
+    font-size: 30px;
+    font-weight: 900;
+    background-color: skyblue;
+}
+
+.shilian {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    left: 600px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    font-family: "隶书";
+    font-size: 30px;
+    font-weight: 900;
+    background-color: skyblue;
+}
+
+.baowen {
+    position: relative;
+    height: 400px;
+}
+
+.baowen ul li:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 300px;
+    height: 400px;
+    background-color: whitesmoke;
+}
+
+.baowen ul li:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 450px;
+    width: 300px;
+    height: 400px;
+    background-color: whitesmoke;
+}
+
+.baowen ul li:nth-child(3) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 400px;
+    background-color: whitesmoke;
+}
+
+.biaoti {
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: "隶书";
+}
+
+.biaoti::before {
+    content: "";
+    font-family: 'icomoon';
+    padding: 10px;
+    font-size: 25px;
+}
+
+.biaoti::after {
+    content: "";
+    font-family: 'icomoon';
+    padding: 10px;
+    font-size: 25px;
+}
+
+.baowen_hd {
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: "隶书";
+    color: rgb(173, 74, 28);
+}
+
+.baowen_hd::after {
+    content: "";
+    font-family: 'icomoon';
+    margin-left: 50px;
+}
+
+
+/* 固定栏制作search1 */
+
+.search1 {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 1940px;
+    height: 40px;
+    background-color: white;
+    z-index: 20;
+    border-bottom: 2px solid pink;
+}
+
+.search1 img {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 250px;
+}
+
+.search1 input {
+    position: absolute;
+    left: 350px;
+    height: 30px;
+    width: 600px;
+    top: 5px;
+    padding: 10px;
+    border: pink 2px solid;
+}
+
+.search1 button {
+    position: absolute;
+    top: 5px;
+    left: 950px;
+    width: 60px;
+    height: 30px;
+    background-color: pink;
+    color: white;
+}
+
+.search_div {
+    position: absolute;
+    top: 5px;
+    left: 1100px;
+    width: 85px;
+    height: 30px;
+    background-color: pink;
+    color: white;
+    padding-left: 25px;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+.search_div::before {
+    content: "";
+    font-family: 'icomoon';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 20px;
+}
+
+.search2 {
+    display: none;
+    position: fixed;
+    top: 40px;
+    width: 1940px;
+    height: 60px;
+    background-color: white;
+    z-index: 20;
+}
+
+.search2 ul {
+    width: 1200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.search2 ul li {
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    background-color: pink;
+    margin-left: 100px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
